@@ -1,0 +1,38 @@
+.contenedor-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-footer-logo {
+  display: flex;
+}
+.contenedor-footer-parrafos {
+  display: flex;
+  gap: 8px;
+}
+
+.contenedor-footer-redes-sociales {
+  display: flex;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+.contenedor-footer-pie-pagina {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-footer-derechos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-footer-politicas {
+  display: flex;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.derechos {
+  padding-top: 15px;
+}

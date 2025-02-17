@@ -1,0 +1,359 @@
+.section3-h3,
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.titulo-principal {
+  background-color: rgb(129, 129, 129);
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.boton-2 {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(129, 129, 129);
+  color: white;
+  border: 2px solid white;
+}
+.boton-2:hover {
+  background-color: black;
+}
+
+.boton-1 {
+  width: 90px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+}
+.boton-1:hover {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.aside1 {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.parrafo1 {
+  padding-top: 30px;
+}
+
+.aside-botones {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.section3-h3,
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.section3-parrafo {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.contenedor-section3-imagenes {
+  display: flex;
+  justify-content: space-around;
+}
+.contenedor-section3-imagen1 {
+  display: flex;
+  gap: 30px;
+}
+.contenedor-section3-imagen1-1 {
+  text-align: center;
+}
+
+.contenedor-section3-imagen1-2 {
+  text-align: center;
+}
+
+.imagen-lenguajes {
+  border-radius: 10px;
+}
+
+.contenedor-section-botones {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.contenedor-section3-boton1 {
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  xt-align: center;
+  background-color: white;
+  border: 2px solid black;
+}
+.contenedor-section3-boton1:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.contenedor-section3-boton2 {
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  border: none;
+}
+.contenedor-section3-boton2:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.contenedor-section4-raiting {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.contenedor-section4-parrafo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-section4-boton1 {
+  padding-top: 40px;
+}
+
+.contenedor-section4-boton2 {
+  padding-top: 40px;
+}
+
+.contenedor-section5-h2 {
+  text-align: center;
+}
+
+.contenedor-section5-parrafo {
+  text-align: center;
+}
+
+.contenedor-section5-imagenes {
+  display: flex;
+  justify-content: space-around;
+}
+.imagnes-estudiantes {
+  border-radius: 50%;
+  display: flex;
+}
+
+.contenedor-section5-personas {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contenedor-section6 {
+  display: flex;
+  justify-content: space-between;
+
+  height: 100px;
+}
+
+.contenedor-section6-h2 h2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.contenedor-section6-botones {
+  display: flex;
+
+  padding-right: 40px;
+  gap: 10px;
+}
+
+.contenedor-section6-boton1 {
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+.contenedor-section6-boton1:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.contenedor-section6-boton2 {
+  height: 30px;
+  background-color: white;
+}
+.contenedor-section6-boton2:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.contenedor-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-footer-logo {
+  display: flex;
+}
+.contenedor-footer-parrafos {
+  display: flex;
+  gap: 8px;
+}
+
+.contenedor-footer-redes-sociales {
+  display: flex;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+.contenedor-footer-pie-pagina {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-footer-derechos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-footer-politicas {
+  display: flex;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.contenedor-section5-personas {
+}
+
+@media screen and (max-width: 768px) {
+  .navegacion {
+    flex-direction: column;
+  }
+
+  .contenedor-botones {
+    justify-content: flex-start;
+  }
+
+  .aside1 {
+    flex-direction: column;
+  }
+
+  .contenedor-section3-imagen1 {
+    flex-direction: column;
+  }
+  .imagen-lenguajes {
+    border: 2px solid black;
+  }
+  .contenedor-section5-personas {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contenedor-section6 {
+    flex-direction: column;
+  }
+
+  .contenedor-footer {
+    flex-direction: column;
+  }
+
+  .contenedor-footer-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-footer-parrafos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-footer-redes-sociales {
+    justify-content: center;
+  }
+
+  .contenedor-footer-derechos {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contenedor-footer-politicas {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navegacion {
+    flex-direction: column;
+  }
+
+  .contenedor-botones {
+    justify-content: flex-start;
+  }
+
+  .aside1 {
+    flex-direction: column;
+  }
+
+  .contenedor-section3-imagen1 {
+    flex-direction: column;
+  }
+  .imagen-lenguajes {
+    border: 2px solid black;
+  }
+  .contenedor-section5-personas {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contenedor-section6 {
+    flex-direction: column;
+  }
+
+  .contenedor-footer {
+    flex-direction: column;
+  }
+
+  .contenedor-footer-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-footer-parrafos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-footer-redes-sociales {
+    justify-content: center;
+  }
+
+  .contenedor-footer-derechos {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contenedor-footer-politicas {
+    flex-direction: column;
+  }
+}
