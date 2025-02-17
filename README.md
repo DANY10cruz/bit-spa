@@ -11,4 +11,4 @@
 
 Auto:Daniel Cruz Vargas
 
-[Visita la pagina del curso ] (https://dany10cruz.github.io/bit-spa/)
+[Visita la pagina del curso ] (https://dany10cruz.github.io/bit-spa/)(http://localhost:4200/mi-proyecto)
